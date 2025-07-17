@@ -45,7 +45,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Author
 
-[Dhruv] - [dhruvharani5@gmail.com]
+Dhruv - dhruvharani5@gmail.com
 
 ---
 
