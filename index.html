@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Someone Special 💖</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="message-box">
+            <h1 class="title">For Someone Special</h1>
+            <p class="message">Every time I see you, my heart skips a beat...</p>
+            <div id="heart-container"></div>
+            <button id="reveal-btn" class="cta-button">Click to reveal my feelings</button>
+            <div id="secret-message" class="hidden">
+                <p>I've been wanting to tell you something...</p>
+                <p class="big-text">I like you! 💖</p>
+                <p>Would you like to go out with me?</p>
+                <div class="button-group">
+                    <button id="yes-btn" class="response-btn">Yes! 😊</button>
+                    <button id="no-btn" class="response-btn">Maybe later</button>
+                </div>
+            </div>
+            <div id="response-message" class="hidden"></div>
+        </div>
+    </div>
+    <div id="hearts-container"></div>
+    <div id="confetti-container"></div>
+    
+    <!-- Audio Player -->
+    <div class="audio-player">
+        <button id="mute-btn" class="audio-control">
+            <i class="fas fa-volume-up"></i>
+        </button>
+        <audio id="bg-music" loop>
+            <source src="ye fitoor.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
